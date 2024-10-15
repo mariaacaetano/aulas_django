@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-vhvm5qv5gyj&5%&g%p0&)=leuxff%jl9i6e-ox&493t8z#vxh="
+SECRET_KEY = "django-insecure-v(a5bc0xy@!6ym(1i0obtje+%wd45g0@w*)j^q^+136-25_sfd"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "blog",
-    "accounts",
+    "products",
+    
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-         'DIRS': [str(BASE_DIR.joinpath('templates'))],
+        "DIRS": [str(BASE_DIR.joinpath('templates'))],  
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -120,11 +120,6 @@ USE_TZ = True
 # config/settings.py
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
-
-# config/settings.py
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
