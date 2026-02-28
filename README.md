@@ -1,6 +1,7 @@
-### Aulas Django
-Este é um repositório temporário, utilizado para postar atividades referentes às aulas de Desenvolvimento Web II, 
-do curso de Sistemas de Informação, disciplina focada em desenvolvimento back-end com Django, do Python.
+## 📂 Desenvolvimento Web I
+Esse repositório foi criado para guardar versões de atividades proposta durante o período da disciplina de Bacharelado em Sistemas de Informação. 
+É um repositório de finalidade acadêmica, puramente para apresentação de resultados. Cada branch faz parte de uma atividade proposta em sala.
 
-### Tutoriais Django
-Tutoriais da primeira parte da disciplina, que buscam mostrar como funciona o django em si.
+## 📂 Web Development I
+This repository was created to store versions of activities proposed during the Bachelor's degree in Information Systems.
+It is a repository for academic purposes, purely for the presentation of results. Each branch is part of an activity proposed in class.
